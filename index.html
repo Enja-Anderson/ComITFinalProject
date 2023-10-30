@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <meta name="description" content="Final Project for ComIT. 'make and app using a pipeline'. This file is the web template."/>
+    <title>Special Calculator App</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 class="m-0">Quadratic Formula Calculator</h1>
+            <img src="quadratic-formula.png" alt="Quadratic Formula" width="50%" height="50%" class="photo">
+            <div class="instructions">
+                <p>Above is the quadratic formula. When using this formula, the <b>general</b> form of your equation must be used.</p>
+                <p>Since 'a', 'b' and 'c' are all we care about, input the values below, where it is appropriate. If no numbers are entered, 0 will be assigned as default.</p>
+                <p><b>*NOTE* This calculator is meant to be a CHECKER to make sure you did the work correctly.</b></p>
+            </div> 
+        </div>
+        <form id="calcfrm" class="frm">
+            <br>
+            <input type="number" id="a" class="form-control boxes" placeholder="a = ">
+            <br>
+            <input type="number" id="b" class="form-control boxes" placeholder="b = ">
+            <br>
+            <input type="number" id="c" class="form-control boxes" placeholder="c = ">
+            <br>
+            <button type="submit" class="calc">Calculate</button>
+            <br>
+        </form>
+        <div id="result" class="boxes return"></div>
+        <br><br>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,126 @@
+html {
+  background-color: #beedc2;
+}
+
+[class*="card"] {
+  width: 100%;
+  padding-bottom: 2%;
+  background-color: #d5fad8fe;
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.container {
+  height: 100vh;
+}
+
+body {
+  background: #eee;
+}
+
+.mobile-text {
+  color: #989696b8;
+  font-size: 15px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ff8880;
+  outline: 0;
+  box-shadow: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.m-0 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.instructions {
+  border-radius: 5%;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #c3f1e8;
+}
+
+.photo, .calc, .clear {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.frm {
+  padding: 1%;
+  border-radius: 20%; 
+  margin: auto;
+  background-color: #d7f5d9;
+}
+
+.boxes {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  width: 50%;
+  text-align: center;
+}
+
+.calc { 
+  font-size: 2rem;
+}
+
+.return {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container {
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+  background-color: #beedc2;
+}
+
+#p { 
+  border: 2%;
+  border-radius: 50%;
+}
